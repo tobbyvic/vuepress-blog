@@ -7,14 +7,13 @@ module.exports = {
       // 导航栏
       nav: [
         { text: 'Home', link: '/' },
-        { text: 'Author', link: '/Author' },
-        { text: 'Guide', link: '/guide/' },
-        { text: 'External', link: 'https://google.com' },
+        // { text: 'Author', link: '/Author' },
+        // { text: 'Guide', link: '/guide/' },
+        // { text: 'External', link: 'https://google.com' },
       ],
       // 侧边栏
       sidebar: {
-        '/guide/': [
-          '',     /* /foo/ */
+          '/': [
           'front',  /* /foo/one.html */
           'end'   /* /foo/two.html */
         ],
