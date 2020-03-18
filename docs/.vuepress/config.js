@@ -1,33 +1,24 @@
 module.exports = {
-    title: 'Hello VuePress',
-    description: 'Just playing around',
+    title: 'tobbyvic blog',
+    description: '日拱一卒，功不唐捐',
 
     themeConfig: {
-      // logo: '/',
-      // 导航栏
-      nav: [
-        { text: 'Home', link: '/' },
-        // { text: 'Author', link: '/Author' },
-        // { text: 'Guide', link: '/guide/' },
-        // { text: 'External', link: 'https://google.com' },
-      ],
-      // 侧边栏
-      sidebar: {
-          '/': [
-          'front',  /* /foo/one.html */
-          'end'   /* /foo/two.html */
+        // logo: '/',
+        // 导航栏
+        nav: [
+            { text: '前端', link: '/frontend/learn-frontend' },
+            // { text: 'Author', link: '/Author' },
+            { text: '服务端', link: '/server/learn-server' },
+            { text: 'Github', link: 'https://github.com/tobbyvic' },
         ],
-        // '/bar/': [
-        //   '',      /* /bar/ */
-        //   'three', /* /bar/three.html */
-        //   'four'   /* /bar/four.html */
-        // ],
-        // fallback 确保 fallback 侧边栏被最后定义。VuePress 会按顺序遍历侧边栏配置来寻找匹配的配置.
-        // '/': [
-        //   '',        /* / */
-        //   'contact', /* /contact.html */
-        //   'about'    /* /about.html */
-        // ]
-      }
+        // 侧边栏
+        sidebar: {
+            '/frontend/': [
+                ['learn-frontend', '学习前端']  /* /frontend/learn-frontend.html */
+            ],
+            '/server/': [
+                ['learn-server', '学习服务端']  /* /frontend/learn-servers.html */
+            ]
+        }
     }
-  }
+}

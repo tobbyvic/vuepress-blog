@@ -1,4 +1,7 @@
 ---
-home: false
-https://vuepress.vuejs.org/zh/theme/default-theme-config.html#%E9%A6%96%E9%A1%B5
+home: true
+heroImage: null
+heroText: null
+tagline: null
 ---
+### 欢迎来到tobbyvic的个人博客。
